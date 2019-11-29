@@ -1,0 +1,177 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Vollkorn', serif;
+}
+
+.navi{
+	width: 100%;
+	height: 72px;
+	background: black;
+	background-image: url(../img/logo.png);
+	background-position: top 0 left 40px;
+	background-size: 72px;
+	background-repeat: no-repeat;
+	position:  fixed;
+	top: 0;
+	left:  0;
+	z-index: 1000;
+}
+
+
+.navi ul{
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    height: 72px;
+    width: 600px;
+    margin: 0 auto;
+}
+ 
+.navi li{
+    float: left;
+    height: 50px;
+    line-height: 72px;
+    padding: 0 20px;
+    color: white;
+}
+ 
+ 
+.navi li:hover{
+    border-bottom: 2px solid white;
+    opacity: 0.5;
+}
+
+.navi input{
+	box-sizing: content-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin:  15px 30px;
+	width: 144px;
+	height: 24px;
+	padding: 8px 16px 8px 40px;
+	background-image: url(../img/sarch.jpeg);  
+}
+
+.main_top{
+	width: 60%;
+	height: 400px;
+	margin: 72px auto 0;
+	background-image: url(../img/suit.png);
+	background-repeat: no-repeat;
+}
+
+.main_top h1{
+	font-size: 80px;
+	color: black;
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 155px;
+}
+
+.main_colum{
+	width: 70%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+.main_colum h1{
+	font-size: 40px;
+}
+
+.main_colum p{
+	text-align: left;
+	padding: 20px 50px;
+}
+
+.contact{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.contact_form{
+	width: 50%;
+	float: left;
+	padding: 20px 0 20px 0;
+}
+
+.contact_form h1{
+	font-size: 20px;
+}
+
+.contact_form input{
+	width: 80%;
+	height: 40px;
+	padding-left: 10px;
+	margin: 5px auto;
+	border: 1px solid black;
+}
+
+.contact_form textarea{
+	width: 80%;
+	margin: 5px auto;
+	border: 1px solid black;
+	padding-left: 5px;
+}
+
+.submit{
+	padding: 3px;
+}
+
+.submit:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.contact_img{
+	width: 50%;
+	height: 496px;
+	float: right;
+	background-image: url(../img/contactimg2.jpeg);
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
+.footer_navi{
+	clear:  both;
+	background-color: black;
+	width: 100%;
+	height: 100px;
+	background-image: url(../img/footerlogo.jpg);
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: top 0 right 40px;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+	margin: 10px 20px;
+
+}
+
+.twitter{
+	margin-left: 180px;
+}
+
+.last_colum{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.last_colum_img{
+	width: 15%;
+	height: auto;
+	float: left;
+	margin: 0 2%;
+}
+
+.last_colum_img img{
+	width: 100%;
+	height: auto;
+}
+
+
+
